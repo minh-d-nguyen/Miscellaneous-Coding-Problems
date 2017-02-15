@@ -1,6 +1,3 @@
-
-
-#include <iostream>
 /* Problem:
 Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 
@@ -10,6 +7,7 @@ Solution approach: Check if the next element on the list is a number, if it is
 push it on the value stack, if it is an operator, pop the top 2 elements of 
 value stack, perform the operation on the 2 numbers, and push the result on the stack.
 */
+#include <iostream>
 #include <string>
 #include <vector>
 #include <stack>
