@@ -12,7 +12,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-ListNode* Solution::rotateRight(ListNode* A, int B) {
+ListNode* rotateRight(ListNode* A, int B) {
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
